@@ -1,0 +1,169 @@
+{
+  "modules": [
+    {
+      "id": "week-1",
+      "title": "Überblick & Grundlagen der KI-Orchestrierung",
+      "description": "Einführung in die Welt der KI-Tools",
+      "duration": "1 Woche",
+      "theoryPercentage": 65,
+      "practicePercentage": 35,
+      "topics": ["KI-Agenten", "LLMs", "API-Grundlagen", "Prompt-Engineering"],
+      "tools": ["ChatGPT", "YouTube", "Manus AI"],
+      "tasks": [
+        {
+          "id": "task-1-1",
+          "title": "KI-Agenten verstehen",
+          "description": "Recherchiere und verstehe das Konzept von KI-Agenten und wie sie autonom Aufgaben erledigen können.",
+          "type": "daily",
+          "xpReward": 50
+        },
+        {
+          "id": "task-1-2",
+          "title": "Auto-GPT Funktionsweise",
+          "description": "Erkläre in eigenen Worten, wie Auto-GPT in Schleifen arbeitet (Planen → Ausführen → Ergebnis prüfen → nächster Schritt).",
+          "type": "daily",
+          "xpReward": 50
+        },
+        {
+          "id": "task-1-3",
+          "title": "Beispielanwendungen sammeln",
+          "description": "Sammle mindestens 3 Beispiel-Anwendungen für KI-Agenten (z.B. 'KI-Agent bestellt Pizza online', 'KI-Agent schreibt und testet Code selbst').",
+          "type": "weekly",
+          "xpReward": 100
+        }
+      ]
+    },
+    {
+      "id": "week-2",
+      "title": "Programmier-Basis & API-Nutzung",
+      "description": "Einstieg in praktische Programmierung für KI-Integrationen",
+      "duration": "1 Woche",
+      "theoryPercentage": 65,
+      "practicePercentage": 35,
+      "topics": ["Python-Grundlagen", "APIs", "JSON", "HTTP-Requests", "OpenAI API"],
+      "tools": ["Python", "OpenAI API", "Postman", "IFTTT/Zapier"],
+      "tasks": [
+        {
+          "id": "task-2-1",
+          "title": "Python-Entwicklungsumgebung einrichten",
+          "description": "Richte eine Python-Entwicklungsumgebung ein und installiere die benötigten Libraries.",
+          "type": "daily",
+          "xpReward": 50
+        },
+        {
+          "id": "task-2-2",
+          "title": "OpenAI API-Schlüssel generieren",
+          "description": "Erstelle einen OpenAI API-Schlüssel für die Nutzung in deinen Projekten.",
+          "type": "daily",
+          "xpReward": 30
+        },
+        {
+          "id": "task-2-3",
+          "title": "Erstes Python-Skript für ChatGPT",
+          "description": "Schreibe ein einfaches Python-Skript, das eine Anfrage an ChatGPT (GPT-3.5) stellt und eine Antwort ausgibt.",
+          "type": "weekly",
+          "xpReward": 150
+        }
+      ]
+    },
+    {
+      "id": "week-3",
+      "title": "Chatbot-Grundgerüst (Kundenservice Use-Case)",
+      "description": "Einfachen Chatbot für Kundenservice bauen",
+      "duration": "1 Woche",
+      "theoryPercentage": 65,
+      "practicePercentage": 35,
+      "topics": ["Q&A-Bots", "LLM mit firmeneigenen FAQs", "No-Code-Lösungen"],
+      "tools": ["OpenAI API (GPT-3.5)", "LangChain", "HuggingFace"],
+      "tasks": [
+        {
+          "id": "task-3-1",
+          "title": "FAQ-Liste erstellen",
+          "description": "Erstelle eine einfache FAQ-Liste als Datenbasis für deinen Chatbot.",
+          "type": "daily",
+          "xpReward": 40
+        },
+        {
+          "id": "task-3-2",
+          "title": "Chatbot-Prototyp bauen",
+          "description": "Entwickle einen einfachen Chatbot-Prototypen, der auf die FAQ-Liste reagieren kann.",
+          "type": "weekly",
+          "xpReward": 200
+        },
+        {
+          "id": "task-3-3",
+          "title": "Chatbot testen",
+          "description": "Teste deinen Chatbot mit 5 typischen Kundenfragen und überprüfe die Antworten.",
+          "type": "daily",
+          "xpReward": 50
+        }
+      ]
+    },
+    {
+      "id": "week-4",
+      "title": "Komplexere KI-Agenten",
+      "description": "Autonome KI-Agenten praktisch kennenlernen",
+      "duration": "1 Woche",
+      "theoryPercentage": 60,
+      "practicePercentage": 40,
+      "topics": ["Auto-GPT", "BabyAGI", "Autonome Agenten"],
+      "tools": ["Auto-GPT", "OpenAI API"],
+      "tasks": [
+        {
+          "id": "task-4-1",
+          "title": "Auto-GPT installieren",
+          "description": "Installiere Auto-GPT lokal und konfiguriere es mit deinem OpenAI API-Key.",
+          "type": "daily",
+          "xpReward": 70
+        },
+        {
+          "id": "task-4-2",
+          "title": "Einfaches Ziel formulieren",
+          "description": "Formuliere ein einfaches Ziel für Auto-GPT und beobachte, wie es das Ziel in Teilaufgaben zerlegt.",
+          "type": "daily",
+          "xpReward": 50
+        },
+        {
+          "id": "task-4-3",
+          "title": "Auto-GPT Projekt",
+          "description": "Lasse Auto-GPT eine komplexere Aufgabe erledigen und dokumentiere den Prozess.",
+          "type": "weekly",
+          "xpReward": 180
+        }
+      ]
+    },
+    {
+      "id": "week-5",
+      "title": "Datenintegration & Vektorsuche",
+      "description": "Daten für KI-Agenten zugänglich machen",
+      "duration": "1 Woche",
+      "theoryPercentage": 60,
+      "practicePercentage": 40,
+      "topics": ["Vektordatenbanken", "Embeddings", "Semantic Search"],
+      "tools": ["OpenAI Embeddings API", "Pinecone/Chroma"],
+      "tasks": [
+        {
+          "id": "task-5-1",
+          "title": "Embeddings verstehen",
+          "description": "Recherchiere und verstehe das Konzept von Embeddings und wie sie für Semantic Search genutzt werden.",
+          "type": "daily",
+          "xpReward": 50
+        },
+        {
+          "id": "task-5-2",
+          "title": "Dokumente in Vektoren umwandeln",
+          "description": "Wandle einige Dokumente in Vektoren um und speichere sie in einer Vektordatenbank.",
+          "type": "daily",
+          "xpReward": 80
+        },
+        {
+          "id": "task-5-3",
+          "title": "Vektorsuche implementieren",
+          "description": "Implementiere eine einfache Vektorsuche, die relevante Dokumente zu einer Anfrage findet.",
+          "type": "weekly",
+          "xpReward": 150
+        }
+      ]
+    }
+  ]
+}
